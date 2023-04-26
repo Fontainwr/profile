@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(175, 157, 157);
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 40%;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+a {
+  color: rgb(192, 202, 192);
+  text-decoration: dotted;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: green;
+  box-shadow: 20%;
+}
+
+.card {
+  text-align: center;
+  background: green;
+  padding: 30px;
+  border: 1px solid green;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px
+  }
+}
